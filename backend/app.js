@@ -11,7 +11,14 @@ const orders = require('./routes/order');
 
 connectDatabase();
 app.use(express.json());
-app.use(cors());
+//app.use(cors());
+app.use(cors({
+    origin: [
+        'http://localhost:3000',
+        'https://malar172.github.io' // Replace with your exact GitHub profile page domain
+    ],
+    credentials: true
+}));
 app.use('/api/v1',products);
 app.use('/api/v1',orders);
 
