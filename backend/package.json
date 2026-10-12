@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Malar172.github.io/Mini-ecommerce",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
@@ -8,8 +7,6 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
