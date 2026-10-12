@@ -12,7 +12,7 @@ export default function ProductDetail({cartItems,setCartItems}) {
         },[id])
 
         function addToCart(){
-          const itemExist = cartItems.find((item) => item.product. _id === product._id); 
+          const itemExist = cartItems.find((item) => item.product._id === product._id); 
           if (!itemExist){
               const newItem = {product,qty};
               setCartItems((state) => [...state,newItem]);
@@ -39,8 +39,9 @@ export default function ProductDetail({cartItems,setCartItems}) {
     return  product && <div className="container container-fluid">
              <div className="row f-flex justify-content-around">
             <div className="col-12 col-lg-5 img-fluid" id="product_image">
-                <img src={product.images[0].image} alt="sdf" height="500" width="500" />
+                <img src={process.env.PUBLIC_URL + product.images[0].image} alt="sdf" height="500" width="500" />
             </div>
+            
 
             <div className="col-12 col-lg-5 mt-5">
                 <h3>{product.name}</h3>

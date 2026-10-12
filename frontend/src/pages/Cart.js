@@ -8,11 +8,11 @@ export default function Cart({cartItems,setCartItems})
 
 
     function increaseQty(item){
-         if (item.product.stock == item.qty) {
+         if (item.product.stock === item.qty) {
             return;
          }
         const updatedItems = cartItems.map((i) => {
-            if (i.product._id == item.product._id) {
+            if (i.product._id === item.product._id) {
                 i.qty++
             }
             return i;
@@ -23,7 +23,7 @@ export default function Cart({cartItems,setCartItems})
       function decreaseQty(item){
         if (item.qty > 1){
            const updatedItems = cartItems.map((i) => {
-            if (i.product._id == item.product._id) {
+            if (i.product._id === item.product._id) {
                 i.qty--
             }
             return i;
@@ -36,7 +36,7 @@ export default function Cart({cartItems,setCartItems})
 
       function removeItem(item){
          const updatedItems = cartItems.filter((i) => {
-            if (i.product._id == item.product._id) {
+            if (i.product._id === item.product._id) {
                return true;
             }
            
@@ -81,7 +81,7 @@ export default function Cart({cartItems,setCartItems})
                 <div className="cart-item">
                     <div className="row">
                         <div className="col-4 col-lg-3">
-                            <img src={item.product.images[0].image} alt={item.product.name} height="90" width="115" />
+                            <img src={process.env.PUBLIC_URL + item.product.images[0].image} alt={item.product.name} height="90" width="115" />
                         </div>
 
                         <div className="col-5 col-lg-3">
