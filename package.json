@@ -12,6 +12,7 @@
     "escalade": "^3.2.0",
     "get-caller-file": "^2.0.5",
     "get-east-asian-width": "^1.7.0",
+    "gh-pages": "^6.3.0",
     "rxjs": "^7.8.2",
     "shell-quote": "^1.12.0",
     "string-width": "^7.2.0",
@@ -27,12 +28,11 @@
   "devDependencies": {
     "concurrently": "^10.0.6"
   },
- "scripts": {
+  "scripts": {
     "start:frontend": "cd frontend && npm start",
     "start:backend": "cd backend && npm start",
     "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Malar172/Mini-ecommerce.git"
