@@ -81,7 +81,7 @@ export default function Cart({cartItems,setCartItems})
                 <div className="cart-item">
                     <div className="row">
                         <div className="col-4 col-lg-3">
-                            <img src={item.product.images[0].image} alt={item.product.name} height="90" width="115" />
+                            <img src={process.env.PUBLIC_URL + item.product.images[0].image} alt={item.product.name} height="90" width="115" />
                         </div>
 
                         <div className="col-5 col-lg-3">

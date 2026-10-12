@@ -4,7 +4,7 @@ export default function Header({cartItems}){
      return <nav className=" navbar row">
       <div className="col-12 col-md-3">
         <div className="navbar-brand">
-          <Link to ="/"><img width="150px" src="/images/logo.png" /></Link>
+          <Link to ="/"><img width="150px" src={process.env.PUBLIC_URL + "/images/logo.png"} alt="Mini Ecommerce logo" /></Link>
           
         </div>
       </div>
