@@ -69,7 +69,8 @@ npm start
 ### Product Page
 ![Product Page](productdetailpage.png)
 
-![Cart Page]\(cart page.png)
+### Home Page
+![Cart Page](cartpage.png)
 
 ## 🚀 Live Demo
  
