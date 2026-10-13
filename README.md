@@ -66,8 +66,11 @@ npm start
 ### Home Page
 ![Home Page](homepage.png)
 
-### About Page
-![About Page](images/about.png.
+### Product Page
+![Product Page](productdetailpage.png)
+
+### Cart Page
+![Cart Page](Cart page.png)
 
 ## 🚀 Live Demo
  
