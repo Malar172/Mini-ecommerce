@@ -69,9 +69,6 @@ npm start
 ### Product Page
 ![Product Page](productdetailpage.png)
 
-### Home Page
-![Cart Page](cartpage.png)
-
 ## 🚀 Live Demo
  
 [View Mini E-Commerce Website](https://malar172.github.io/Mini-ecommerce/)
