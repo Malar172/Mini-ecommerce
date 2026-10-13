@@ -70,7 +70,7 @@ npm start
 ![Product Page](productdetailpage.png)
 
 ### Cart Page
-![Cart Page](Cart page.png)
+![Cart Page](cart page.png)
 
 ## 🚀 Live Demo
  
